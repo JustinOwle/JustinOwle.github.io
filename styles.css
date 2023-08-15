@@ -23,6 +23,18 @@ html{
     --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     --bs-font-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+html,
+body {
+    height: 100%
+}
+
+h1 {
+    text-align: center;
+}
+
+div{
     font-family: var(--bs-font-sans-serif);
     font-size: 1rem;
     font-weight: 400;
@@ -43,13 +55,4 @@ html{
     gap: 1.5rem;
     grid-template-areas: "sidebar main";
     grid-template-columns: 1fr 5fr;
-}
-
-html,
-body {
-    height: 100%
-}
-
-h1 {
-    text-align: center;
 }
