@@ -36,16 +36,25 @@ body {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
 }
+
 h4 {
     margin: 0;
 }
+
 ul {
     margin: 0;
 }
+
 h1 {
     margin: 0;
     text-align: center;
+    color: #071122;
 }
+
+a {
+    color: rgb(60, 41, 228);
+}
+
 h6 {
     margin: 0;
     text-align: center;
