@@ -36,9 +36,18 @@ body {
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
 }
-
+h3 {
+    margin: 0;
+}
+ul {
+    margin: 0;
+}
 h1 {
+    margin: 0;
     text-align: center;
+}
+h6 {
+    margin: 0;
 }
 
 aside {
